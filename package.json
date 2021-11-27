@@ -1,0 +1,42 @@
+{
+  "name": "adventofcode2021",
+  "version": "1.0.0",
+  "description": "https://adventofcode.com/2021",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "test": "jest",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "Loris Bognanni",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^24.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "testRegex": "./src/.*\\.(test|spec)?\\.(ts|ts)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+    "roots": [
+      "<rootDir>/src"
+    ]
+  }
+}
