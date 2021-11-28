@@ -1,12 +1,12 @@
 # Advent of code Typescript Starter
 
-A simple Advent of code starter project with Typescript and jest for testing.
+A simple [Advent of code](https://adventofcode.com/) starter project with Typescript and jest for testing.
 
 ## How to use
 
-For each day:
+For each day, where `X` is the day number (1-25):
 
- - Copy the `day0` folder and name it `dayX` where `X` is the day number (1-25)
+ - Copy the `day0` folder and name it `dayX`
  - Change the constructor to call `super(X)`
  - Implement the necessary logic in `solveForPart1` and `solveForPart2`
  - Download the input files in the `inputs/dayX` folder
