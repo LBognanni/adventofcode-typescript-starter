@@ -1,9 +1,9 @@
 import { Day } from "../day";
 
-class Day0 extends Day {
+class Day{{XX}} extends Day {
 
     constructor(){
-        super(0);
+        super({{XX}});
     }
 
     solveForPartOne(input: string): string {
@@ -15,4 +15,4 @@ class Day0 extends Day {
     }
 }
 
-export default new Day0;
+export default new Day{{XX}};

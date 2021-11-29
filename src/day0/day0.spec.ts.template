@@ -1,0 +1,7 @@
+import day{{XX}} from './index';
+
+describe('On Day {{XX}}', () =>{
+    it(`part1 is identity function`, ()=>{
+        expect(day{{XX}}.solveForPartOne('hello')).toBe('hello');
+    })
+});
