@@ -6,10 +6,9 @@ A simple [Advent of code](https://adventofcode.com/) starter project with Typesc
 
 For each day, where `X` is the day number (1-25):
 
- - Copy the `day0` folder and name it `dayX`
- - Change the constructor to call `super(X)`
+ - Call `./scripts/new_day.sh X`
+ - Call `./scripts/fetch_input.sh X`
  - Implement the necessary logic in `solveForPart1` and `solveForPart2`
- - Download the input files in the `inputs/dayX` folder
  - Import `dayX` in `index.ts` and add to the days array
  - `npm run start X` to run the day's test
  - `npm test` to run your tests
