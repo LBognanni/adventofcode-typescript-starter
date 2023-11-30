@@ -1,7 +1,7 @@
 {
-  "name": "adventofcode2021",
+  "name": "adventofcode-typescript-starter",
   "version": "1.0.0",
-  "description": "https://adventofcode.com/2021",
+  "description": "https://adventofcode.com/",
   "main": "src/index.ts",
   "scripts": {
     "build": "rimraf ./build && tsc",
