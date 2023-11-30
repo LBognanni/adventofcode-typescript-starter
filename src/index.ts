@@ -18,7 +18,7 @@ async function runDay(dayId: number) {
   console.log(resultPart2);
 }
 
-console.log("\n\n\n   ADVENT OF CODE 2021 \n\n");
+console.log("\n\n\n   ADVENT OF CODE \n\n");
 const params = process.argv.splice(2);
 if (params.length) {
   runDay(parseInt(params[0], 10));

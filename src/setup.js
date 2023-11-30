@@ -47,15 +47,16 @@ async function createFileWithContentIfItDoesntExist(name, content) {
 async function createInputFiles() {
   const inputDayPath = path.join(startPath, "inputs", `day${day}`);
   await createDirectoryIfItDoesntExist(inputDayPath);
+  const year = (new Date()).getFullYear();
 
   createFileWithContentIfItDoesntExist(
     path.join(inputDayPath, "part1.txt"),
-    `{visit https://adventofcode.com/2021/day/${day} and paste the part 1 input here}`
+    `{visit https://adventofcode.com/${year}/day/${day} and paste the part 1 input here}`
   );
 
   createFileWithContentIfItDoesntExist(
     path.join(inputDayPath, "part2.txt"),
-    `{After completing day 1, visit https://adventofcode.com/2021/day/${day} and paste the part 2 input here}`
+    `{After completing day 1, visit https://adventofcode.com/${year}/day/${day} and paste the part 2 input here}`
   );
 }
 
